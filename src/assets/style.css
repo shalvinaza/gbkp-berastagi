@@ -1,0 +1,149 @@
+#app {
+    font-family: Poppins, sans-serif;
+    color: #2c3e50;
+}
+
+body, .body-part { 
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.logo { 
+    width: 35px;
+    height: 35px;
+}
+
+.outer-container{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/* navbar start */
+
+.nav-link{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: #98A1C5;
+}
+
+#akademik .akademik, #beranda .beranda, #kontakDanLokasi .kontak, #kesiswaan .siswa, #infoUmum .info{
+    color: #98A1C5 !important;
+}
+
+.navbar {
+    transition: background-color 0.3s ease; /* Tambahkan efek transisi jika diinginkan */
+}
+
+.navbar-transparent {
+    background-color: transparent !important;
+    border-bottom: white !important;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15), inset 0 -1px 0 rgba(255,255,255,0.15);
+}
+
+.navbar-solid {
+    background-color: #0A154F !important; /* Set the background color when not transparent */
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15), inset 0 -1px 0 rgba(255,255,255,0.15);
+}
+
+/* navbar end */
+
+/* caroussel start */
+
+#myCarousel{
+    position: absolute;
+    top: -40px;
+    z-index: -100;
+}
+
+#img-caroussel{
+    position: relative;
+}
+
+.carousel{
+    width: 100%;
+    min-height: 500px;
+}
+
+#myCarousel .carousel-item #carou-2{
+    object-fit: cover;
+    object-position: center;
+    height: 700px;
+}
+
+.card-img-top{
+    object-fit: cover;
+    object-position: center;
+    height: 200px;
+}
+
+.caroussel-title{
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.carousel-caption {
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    padding: 70px;
+    background: rgb(0, 0, 0, 0.5);
+    text-align: start;
+}
+
+/* caroussel end */
+
+.w-600{
+    font-weight: 600;
+}
+
+.bg-blue{
+    color: white;
+    background-color: #0A154F;
+}
+
+.bg-white{
+    color: #2c3e50;
+    background-color: white;
+}
+
+.img-kepsek{
+    max-height: 400px;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.7);
+}
+
+.img-kalender{
+    max-height: 1000px;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.7);
+}
+
+.img-struktur{
+    max-height: 500px;
+}
+
+.bg-off-white{
+    background-color: #ECECEC;
+}
+
+.card{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border:none;
+    cursor: pointer;
+    /* min-height: 35rem; */
+}
+
+.card-title{
+    font-family: 'Spectral';
+    font-weight: 900;
+    font-size: 60px;
+    color: #0A154F;
+}
